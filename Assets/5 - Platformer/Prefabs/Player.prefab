@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 557755514876753178}
   - component: {fileID: 557755514876753177}
   - component: {fileID: 557755514876753176}
+  - component: {fileID: -3912261358225777119}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -135,6 +136,48 @@ MonoBehaviour:
   rb: {fileID: 557755514876753179}
   trampolineStrength: 500
   collisionForce: 10
+--- !u!23 &-3912261358225777119
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557755514876753183}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 320db42474a98f7488ee1b15df7a89ae, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1001 &557755516814982144
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -277,6 +320,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5376452463711005653, guid: 49922f80835a24c42b44a5505f5ad18f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 27a52ae11c8c1304a8de4ed5530da3d4, type: 2}
     - target: {fileID: 919132149155446097, guid: 49922f80835a24c42b44a5505f5ad18f,
         type: 3}
       propertyPath: m_Name
